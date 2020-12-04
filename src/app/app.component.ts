@@ -20,7 +20,7 @@ export class AppComponent {
        let x = document.getElementById('Xspan');
        let lua = document.getElementById('lua');
        let luz = document.getElementById('luz');
-       let inicio = document.getElementById('inicio');
+       let inicio = document.getElementById('fundo');
  
         if( this.fOurT === false){
           this.fOurT = true;
@@ -99,9 +99,8 @@ export class AppComponent {
                      }                  
 
       document.getElementById("x").style.display= 'none';
-    }
-    
-    
+    }    
     }
 
+  
 }

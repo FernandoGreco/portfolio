@@ -1,0 +1,34 @@
+.descricao {
+    padding: 10px;
+    color: black;
+    margin-top: 5%;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 2;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    left:37%;
+    top:40%;
+ }
+
+    .descricao::after {
+        color: black;
+        content: '|';
+        margin-left: 5px;
+        opacity: 1;
+        animation: pisca .7s infinite; }
+
+        @keyframes pisca {
+            0%, 100% {
+              opacity: 1; }
+            50% {
+              opacity: 0; } }
+
+     
+@media only screen and (max-width: 600px) {
+    .descricao {
+        max-width: 90%;
+        font-size: 20px;
+        margin-top: 10%; }
+}   
