@@ -46,12 +46,15 @@ export class SobreComponent implements OnInit  {
       particles.push(particle);
     }
 
- 
-
-      animate(this.myDiv.nativeElement, this.context,particles,maxParticles);
+  
+        animate(this.myDiv.nativeElement, this.context,particles,maxParticles);
+       
+  
 
       function animate(ElementDiv,context,particles,maxParticles) {    
-           
+
+       
+           console.log("chamadas");
         context.clearRect(0, 0, ElementDiv.width, ElementDiv.height);
         for (let i = 0; i < maxParticles; i++) {
           let particle = particles[i];
@@ -76,7 +79,11 @@ export class SobreComponent implements OnInit  {
           if (particle.y > ElementDiv.height - particleSize || particle.y < particleSize)
             particle.vy = -particle.vy;
         }
+
         window.requestAnimationFrame(this.animate);
+       // window.requestAnimationFrame(this.animate());
+
+      // animate(ElementDiv,context,particles,maxParticles);
         
       }
 
