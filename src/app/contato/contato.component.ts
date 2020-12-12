@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
+import {ClipboardModule} from '@angular/cdk/clipboard';
 
 @Component({
   selector: 'app-contato',
@@ -32,7 +33,14 @@ copyTextFromElement(elementID) {
 //If you only want to put some Text in the Clipboard just use this function
 // and pass the string to copied as the argument.
 copyText(text) {
-  navigator.clipboard.writeText(text);
+  console.log(text);
+  
+  //let anyNavigator = window.navigator;
+ navigator.clipboard.writeText(text);
+ /*anyNavigator.clipboard.writeText(text);
+ */
+   // text.select();
+    //document.execCommand('copy');
 }
 
 }
