@@ -1,7 +1,6 @@
 img{
     display: block;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .flex{    
@@ -9,15 +8,18 @@ img{
     flex-wrap: wrap;
     max-width: 1224px;    
     margin: auto;   
+    
 }
-
 
 .flex > div{
     flex:300px;
-    margin: 10px;
-   
+    margin: 10px;   
 }
 
+.flex > div:nth-child(1),
+.flex > div:nth-child(2) {
+    flex:500px;
+  }
 p{
     background-color: green;
     opacity: 0.9;

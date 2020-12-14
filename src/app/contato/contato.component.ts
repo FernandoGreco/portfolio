@@ -14,14 +14,6 @@ export class ContatoComponent implements OnInit {
   ngOnInit() {
   }
 
-    /* To copy Text from Textbox */  
-copyInputMessage(inputElement) {  
-
-  inputElement.select();  
-
-  document.execCommand('copy');  
-}  
-
 
 //If you want to copyText from Element
 copyTextFromElement(elementID) {
@@ -33,14 +25,8 @@ copyTextFromElement(elementID) {
 //If you only want to put some Text in the Clipboard just use this function
 // and pass the string to copied as the argument.
 copyText(text) {
-  console.log(text);
-  
-  //let anyNavigator = window.navigator;
+ console.log(text);
  navigator.clipboard.writeText(text);
- /*anyNavigator.clipboard.writeText(text);
- */
-   // text.select();
-    //document.execCommand('copy');
 }
 
 }
