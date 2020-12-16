@@ -25,8 +25,7 @@ export class AppComponent {
         if( this.fOurT === false){
           this.fOurT = true;
 
-          label.style.backgroundColor = 'white';
-
+          label.style.backgroundColor = 'white';      
           x.style.color = '#2250a0';
           inicio.style.backgroundColor = 'white';
           

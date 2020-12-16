@@ -7,6 +7,10 @@ import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { ContatoComponent } from './contato/contato.component';
+import { TelasComponent } from './telas/telas.component';
+import { IbovespaComponent } from './ibovespa/ibovespa.component';
+import { LayoutNewsComponent } from './layout-news/layout-news.component';
+import { Layout2Component } from './layout2/layout2.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { ContatoComponent } from './contato/contato.component';
     InicioComponent,
     SobreComponent,
     ProjetosComponent,
-    ContatoComponent
+    ContatoComponent,
+    TelasComponent,
+    IbovespaComponent,
+    LayoutNewsComponent,
+    Layout2Component
   ],
   imports: [
     BrowserModule,
