@@ -9,7 +9,9 @@ import {ClipboardModule} from '@angular/cdk/clipboard';
 })
 export class ContatoComponent implements OnInit {
 
-  constructor() { }
+
+
+  constructor(private clipboard: Clipboard) { }
 
   ngOnInit() {
   }
@@ -26,7 +28,12 @@ copyTextFromElement(elementID) {
 // and pass the string to copied as the argument.
 copyText(text) {
  console.log(text);
- navigator.clipboard.writeText(text);
+ //navigator.clipboard.writeText(text);
+ //text.select();
+//document.execCommand('copy');
+
+//this.clipboard.copy(text);
 }
+
 
 }

@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class Layout2Component implements OnInit {
 
   constructor() { }
+  
+  today: number = Date.now();
 
-  ngOnInit() {
 
+  ngOnInit() {    
   }
 
 }
