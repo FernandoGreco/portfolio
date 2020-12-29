@@ -32,7 +32,7 @@ copyText(text) {
  //text.select();
 //document.execCommand('copy');
 
-//this.clipboard.copy(text);
+this.clipboard.writeText(text);
 }
 
 
