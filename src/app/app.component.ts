@@ -28,7 +28,7 @@ export class AppComponent {
           label.style.backgroundColor = 'white';      
           x.style.color = '#2250a0';
           inicio.style.backgroundColor = 'white';
-          
+         
 
           lua.style.display = 'inherit';
           luz.style.display = 'none';
@@ -49,9 +49,9 @@ export class AppComponent {
         
             //estilo aplicado para luz ligada
         {
-          label.style.backgroundColor = 'black';
+          label.style.backgroundColor = '#2F4F4F';
           x.style.color = 'yellow';
-          inicio.style.backgroundColor = 'black';
+          inicio.style.backgroundColor = '#2F4F4F';
 
           lua.style.display = 'none';
           luz.style.display = 'inherit';
@@ -61,7 +61,7 @@ export class AppComponent {
                       }  
 
           for (var i = 0; i < this.vetorMenu.length; i++) {                        
-            document.getElementById(this.vetorMenu[i]).style.backgroundColor = 'black';
+            document.getElementById(this.vetorMenu[i]).style.backgroundColor = '#2F4F4F';
             document.getElementById(this.vetorMenu[i]).style.color = 'white';
                                    }            
 

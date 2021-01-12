@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
-import {ClipboardModule} from '@angular/cdk/clipboard';
+//import {ClipboardModule} from '@angular/cdk/clipboard';
+import { ClipboardModule } from 'ngx-clipboard';
 
 @Component({
   selector: 'app-contato',
@@ -11,7 +12,7 @@ export class ContatoComponent implements OnInit {
 
 
 
-  constructor(private clipboard: Clipboard) { }
+  constructor() { }
 
   ngOnInit() {
   }
@@ -27,12 +28,13 @@ copyTextFromElement(elementID) {
 //If you only want to put some Text in the Clipboard just use this function
 // and pass the string to copied as the argument.
 copyText(text) {
- console.log(text);
- //navigator.clipboard.writeText(text);
- //text.select();
+ //console.log(text);
+ navigator.clipboard.writeText(text);
+ //navigator.clipboard.readText(text);
+// text.select();
 //document.execCommand('copy');
 
-this.clipboard.writeText(text);
+//this.clipboard.writeText(text);
 }
 
 

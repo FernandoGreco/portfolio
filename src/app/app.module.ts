@@ -11,6 +11,7 @@ import { TelasComponent } from './telas/telas.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { LayoutNewsComponent } from './layout-news/layout-news.component';
 import { Layout2Component } from './layout2/layout2.component';
+import { GraficosComponent } from './graficos/graficos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Layout2Component } from './layout2/layout2.component';
     TelasComponent,
     IbovespaComponent,
     LayoutNewsComponent,
-    Layout2Component
+    Layout2Component,
+    GraficosComponent
   ],
   imports: [
     BrowserModule,
