@@ -29,7 +29,7 @@ copyTextFromElement(elementID) {
 // and pass the string to copied as the argument.
 copyText(text) {
  //console.log(text);
- navigator.clipboard.writeText(text);
+navigator.clipboard.writeText(text);
  //navigator.clipboard.readText(text);
 // text.select();
 //document.execCommand('copy');

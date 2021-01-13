@@ -7,6 +7,9 @@
     background-color: #248842;
     opacity: 0.8;
     padding: 10px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: justify;
 
     }
 
@@ -18,7 +21,8 @@
 
 .fotoPerfil{
     width: 160px;
-    border-radius: 10px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
     //box-shadow: 5px 5px 2px 2px black;
   }
 
@@ -45,20 +49,32 @@
     opacity: 1;
   }
 
-    @media only screen and (max-width: 1000px) {
+  .iconeSobre{
+    display: none;
+  }
+  
+
+    @media only screen and (max-width: 1200px) {
       .icone{
         width: 100px;
     }
 
     .txtDescricao{
        font-size: 15px;
-
+       margin-left: 10px; 
       }
 
         }
 
-        @media only screen and (max-width: 800px) {
-
+        @media only screen and (max-width: 1000px) {
+            .txtDescricao{
+              display: none;
+            }
+            .iconeSobre{
+              display: inherit;
+              margin: 25% 0 0 40%;
+            
+            }
             
             }
 
