@@ -21,7 +21,7 @@
 
 .fotoPerfil{
     width: 160px;
-    border-bottom-right-radius: 25px;
+   
     border-top-left-radius: 25px;
     //box-shadow: 5px 5px 2px 2px black;
   }
@@ -31,7 +31,7 @@
   }
 
   p{
-    color: black;
+    
     margin-top: 70px;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,11 +52,25 @@
   .iconeSobre{
     display: none;
   }
+
+  .nome{
+    font-size:15px;
+    background-color: #248842;
+    padding: 10px;
+    color:white;
+    margin: 0px;
+    border-bottom-right-radius: 25px;
+   
+  }
   
 
     @media only screen and (max-width: 1200px) {
       .icone{
         width: 100px;
+    }
+
+    .nome{
+      width: 160px;
     }
 
     .txtDescricao{
@@ -78,15 +92,27 @@
             
             }
 
-            @media only screen and (max-width: 600px) {
+            @media only screen and (max-width: 800px) {
 
-            
+              
+
+.fotoPerfil,.nome{
+  width: 120px;
+ margin-left: 50%;
+}
+            .iconeSobre{
+              margin-left: 60%;
+            }
                 
                 }    
 
         @media only screen and (max-width: 575px){
           .icone{
             width: 70px;
+        }
+
+        .iconeSobre{
+          margin-top: 120px;
         }
 
         p{

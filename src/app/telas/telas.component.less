@@ -1,3 +1,10 @@
+a { color: inherit;   
+
+    } 
+a:hover{
+    color: inherit;
+}
+
 img{
     display: block;
     width: 100%;    
@@ -12,13 +19,18 @@ img{
 }
 
 .flex > div{
-    flex:50px;
+    flex:150px;
+    height: 200px;
     margin: 5px;   
 }
 
+.flex > div:nth-child(2),.flex > div:nth-child(3) {
+    flex:315px;
+  }
+
 
 p{
-    background-color: green;
+    background-color: 		#248842;
     opacity: 0.9;
     color: #FFFF;
     padding: 5px;
