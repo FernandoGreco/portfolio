@@ -12,6 +12,8 @@ import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { LayoutNewsComponent } from './layout-news/layout-news.component';
 import { Layout2Component } from './layout2/layout2.component';
 import { GraficosComponent } from './graficos/graficos.component';
+import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
+import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { GraficosComponent } from './graficos/graficos.component';
     IbovespaComponent,
     LayoutNewsComponent,
     Layout2Component,
-    GraficosComponent
+    GraficosComponent,
+    LayoutAnimalsComponent,
+    GraficoCovidComponent
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule,  ActivatedRoute, ParamMap } from '@angular/router';
 import { ContatoComponent } from './contato/contato.component';
+import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
 import { GraficosComponent } from './graficos/graficos.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
 import { LayoutNewsComponent } from './layout-news/layout-news.component';
 import { Layout2Component } from './layout2/layout2.component';
 import { ProjetosComponent } from './projetos/projetos.component';
@@ -21,15 +23,19 @@ const routes: Routes = [
     children: [
       {
         path: 'ibovespa', // child route path
-        component: IbovespaComponent, // child route component that the router renders
+        component: IbovespaComponent, 
       },
       {
         path: 'layout-news', // child route path
-        component: LayoutNewsComponent, // child route component that the router renders
+        component: LayoutNewsComponent, 
       },
       {
         path: 'layout2', // child route path
-        component: Layout2Component, // child route component that the router renders
+        component: Layout2Component,
+      },
+      {
+        path: 'layoutAnimals', // child route path
+        component: LayoutAnimalsComponent, // child route component that the router renders
       }
     ],
 
@@ -39,8 +45,8 @@ const routes: Routes = [
 
     children: [
       {
-        path: 'ibovespa', // child route path
-        component: IbovespaComponent, // child route component that the router renders
+        path: 'covid', // child route path
+        component: GraficoCovidComponent, // child route component that the router renders
       },
       {
         path: 'layout-news', // child route path
