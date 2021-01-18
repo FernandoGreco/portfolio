@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule,  ActivatedRoute, ParamMap } from '@angular/router';
 import { ContatoComponent } from './contato/contato.component';
 import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
+import { GraficoOndasComponent } from './grafico-ondas/grafico-ondas.component';
 import { GraficosComponent } from './graficos/graficos.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { InicioComponent } from './inicio/inicio.component';
@@ -49,8 +50,8 @@ const routes: Routes = [
         component: GraficoCovidComponent, // child route component that the router renders
       },
       {
-        path: 'layout-news', // child route path
-        component: LayoutNewsComponent, // child route component that the router renders
+        path: 'ondas', // child route path
+        component: GraficoOndasComponent, // child route component that the router renders
       },
       {
         path: 'layout2', // child route path

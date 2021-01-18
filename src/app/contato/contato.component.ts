@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from '@angular/forms';
-//import {ClipboardModule} from '@angular/cdk/clipboard';
-import { ClipboardModule } from 'ngx-clipboard';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+//import { ClipboardModule } from 'ngx-clipboard';
 
 @Component({
   selector: 'app-contato',

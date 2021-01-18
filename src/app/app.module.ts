@@ -14,6 +14,7 @@ import { Layout2Component } from './layout2/layout2.component';
 import { GraficosComponent } from './graficos/graficos.component';
 import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
 import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
+import { GraficoOndasComponent } from './grafico-ondas/grafico-ondas.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
     Layout2Component,
     GraficosComponent,
     LayoutAnimalsComponent,
-    GraficoCovidComponent
+    GraficoCovidComponent,
+    GraficoOndasComponent
   ],
   imports: [
     BrowserModule,
