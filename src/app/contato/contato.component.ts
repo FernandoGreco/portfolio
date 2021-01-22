@@ -23,7 +23,7 @@ copyTextFromElement(elementID) {
   let element = document.getElementById(elementID); //select the element
   let elementText = element.textContent; //get the text content from the element
   this.copyText(elementText); //use the copyText function below
-  navigator.clipboard.writeText(elementText);
+  //navigator.clipboard.writeText(elementText);
 }
 
 //If you only want to put some Text in the Clipboard just use this function

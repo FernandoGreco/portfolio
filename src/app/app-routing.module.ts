@@ -19,13 +19,10 @@ const routes: Routes = [
   { path: 'projetos', component: ProjetosComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'sobre', component: SobreComponent },
+  { path: 'svgs', component: IbovespaComponent },
   { path: 'telas', component: TelasComponent,
 
     children: [
-      {
-        path: 'ibovespa', // child route path
-        component: IbovespaComponent, 
-      },
       {
         path: 'layout-news', // child route path
         component: LayoutNewsComponent, 
