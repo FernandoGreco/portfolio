@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule,  ActivatedRoute, ParamMap } from '@angular/router';
 import { ContatoComponent } from './contato/contato.component';
-import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
-import { GraficoOndasComponent } from './grafico-ondas/grafico-ondas.component';
+import { GraficoCovidComponent } from './graficos/grafico-covid/grafico-covid.component';
+import { GraficoOndasComponent } from './graficos/grafico-ondas/grafico-ondas.component';
 import { GraficosComponent } from './graficos/graficos.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { InicioComponent } from './inicio/inicio.component';

@@ -11,10 +11,9 @@ import { TelasComponent } from './telas/telas.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { LayoutNewsComponent } from './layout-news/layout-news.component';
 import { Layout2Component } from './layout2/layout2.component';
-import { GraficosComponent } from './graficos/graficos.component';
 import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
-import { GraficoCovidComponent } from './grafico-covid/grafico-covid.component';
-import { GraficoOndasComponent } from './grafico-ondas/grafico-ondas.component';
+import { GraficosModule } from './graficos/graficos.module';
+
 
 @NgModule({
   declarations: [
@@ -27,14 +26,12 @@ import { GraficoOndasComponent } from './grafico-ondas/grafico-ondas.component';
     IbovespaComponent,
     LayoutNewsComponent,
     Layout2Component,
-    GraficosComponent,
-    LayoutAnimalsComponent,
-    GraficoCovidComponent,
-    GraficoOndasComponent
+    LayoutAnimalsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    GraficosModule,
     HttpClientModule
   ],
   providers: [],
