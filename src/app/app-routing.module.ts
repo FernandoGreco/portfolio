@@ -6,9 +6,9 @@ import { GraficoOndasComponent } from './graficos/grafico-ondas/grafico-ondas.co
 import { GraficosComponent } from './graficos/graficos.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
-import { LayoutNewsComponent } from './layout-news/layout-news.component';
-import { Layout2Component } from './layout2/layout2.component';
+import { LayoutAnimalsComponent } from './telas/layout-animals/layout-animals.component';
+import { LayoutNewsComponent } from './telas/layout-news/layout-news.component';
+import { Layout2Component } from './telas/layout2/layout2.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { TelasComponent } from './telas/telas.component';

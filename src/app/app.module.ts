@@ -7,12 +7,9 @@ import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { ContatoComponent } from './contato/contato.component';
-import { TelasComponent } from './telas/telas.component';
 import { IbovespaComponent } from './ibovespa/ibovespa.component';
-import { LayoutNewsComponent } from './layout-news/layout-news.component';
-import { Layout2Component } from './layout2/layout2.component';
-import { LayoutAnimalsComponent } from './layout-animals/layout-animals.component';
 import { GraficosModule } from './graficos/graficos.module';
+import { TelasModule } from './telas/telas.module';
 
 
 @NgModule({
@@ -22,16 +19,13 @@ import { GraficosModule } from './graficos/graficos.module';
     SobreComponent,
     ProjetosComponent,
     ContatoComponent,
-    TelasComponent,
-    IbovespaComponent,
-    LayoutNewsComponent,
-    Layout2Component,
-    LayoutAnimalsComponent
+    IbovespaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     GraficosModule,
+    TelasModule,
     HttpClientModule
   ],
   providers: [],
