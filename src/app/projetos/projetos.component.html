@@ -1,7 +1,124 @@
 <br><br><br>
 <section class="flex">
 
-  
+  <div class='box-e-comerce'>    
+     <a href="https://www.aquilabaroni.com.br" class="btn btn-info" target="_blank">Loja: Aquila Baroni</a>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalAquila">
+      Sobre Projeto
+    </button>
+    <a href="https://www.paiolvirtual.com.br/" class="btn btn-info" target="_blank">Loja: Paiol Virtual</a>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalPaiol">
+      Sobre Projeto
+    </button>
+    <a href="https://www.bbkits.com.br/" class="btn btn-info" target="_blank">Loja: BBKits</a>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalBBKits">
+      Sobre Projeto
+    </button>
+    <a href="https://www.odontopan.com.br/" class="btn btn-info" target="_blank">Loja: Odontopan</a>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalOdontopan">
+      Sobre Projeto
+    </button>
+    <p>E-Commmerce</p>
+  </div>
+
+<!-- Modal Aquila -->
+<div class="modal fade" id="modalAquila" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Aquila Baroni - Plataforma: Nuvem Shop</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-aquila">
+        <b>Loja:</b> https://www.aquilabaroni.com.br <br><br>
+        Layout feito na plataforma Nuvem Shop, que usa Twig, um mecanismo para criar templates em PHP.
+        Neste projeto foi criado um campo que permite o cliente fazer a edição pelo painel, foi criado
+        "Ofertas Relampagos" como pode ser visto na imagem abaixo:
+        <img src="./assets/img/aquila.jpg" alt="">
+          Pelo painel o cliente escolhe a data que "Ofertas Relampagos" estará disponível na loja. 
+          Algumas vantagens do Twig: possível utilizar condicionais no HTML, dessa forma definir o que será exibido por exemplo. Também é possível exibir um objeto no HTML, por ex.: objeto produto, no objeto produto fazer um for e exibir todas imagens. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal Paiol-->
+<div class="modal fade" id="modalPaiol" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Paiol - Plataforma: Loja Integrada</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-aquila">
+        <b>Loja:</b> <a href="https://www.paiolvirtual.com.br/" target="_blank"> https://www.paiolvirtual.com.br/ </a><br><br>
+        Layout feito na plataforma Loja Integrada, por não ter acesso ao html, toda edição do Layout foi feito via Java Script manipulando o DOM.
+        <img src="./assets/img/paiol.jpg" alt="">
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div></div>
+
+
+  <!-- Modal BBKits-->
+<div class="modal fade" id="modalBBKits" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BBKits - Plataforma: Nuvem Shop</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-aquila">
+        <b>Loja:</b> <a href="https://www.bbkits.com.br/" target="_blank"> https://www.bbkits.com.br/ </a><br><br>
+        Layout feito na plataforma Nuvem Shop, algumas customizações criadas para o cliente fazer via painel, como por exemplo ter a opção de banners diferentes no deskto e mobile. 
+        <img src="./assets/img/bbkits.jpg" alt="">
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div></div>
+
+
+    <!-- Modal Odontopan-->
+<div class="modal fade" id="modalOdontopan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Odontopan - Plataforma: Tray</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-aquila">
+        <b>Loja:</b> <a href="https://www.odontopan.com.br/" target="_blank">https://www.odontopan.com.br/ </a><br><br>
+        Layout feito na plataforma Tray, este Layout eu contrui uns 30% a 40%, quando eu peguei estava 80% quebrando, por ter passado por mais desenvolvedores antes foi bem desafiador, tive que ler muito código consertar e criar funcionalidade para que ficasse de acordo com o desenho do projeto.  
+        <img src="./assets/img/odontopan.jpg" alt="">
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div></div>
+
+
   <div>
     <a routerLink="../telas">
     <img src="./assets/img/layoutNoticia.jpg" width="100%" height="100%" class="imgDestaque">

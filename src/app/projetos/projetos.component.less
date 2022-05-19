@@ -1,14 +1,13 @@
 img{
     display: block;
-    width: 100%;    
-    border-top-left-radius: 25px;   
-    height: 200px;
-    
+    width: 100%;
+    height: auto;    
+    border-top-left-radius: 25px;
 }
 
-.imgDestaque{
-    height: 260px;
- }
+.box-e-comerce .btn {
+    margin: 0 10px 10px 0;
+}
 
 .flex{    
     display: flex;
@@ -18,16 +17,14 @@ img{
     
 }
 
+img.imgDestaque {
+    height: auto;
+}
+
 .flex > div{
     flex:300px;
     margin: 10px;   
 }
-
-.flex > div:nth-child(1),
-.flex > div:nth-child(2) {
-    flex:500px;
-    height: 250px!important;
-  }
 
   .flex > div:nth-child(6) {
     max-width: 400px; 
@@ -49,25 +46,5 @@ p{
     margin-left: 25%;
 }
 
-.flex>div:hover {
-    -webkit-transition: 2s ease-in;
-    -ms-transition: 2s ease-in;
-    -moz-transition: 2s ease-in;
-    -o-transition: 2s ease-in;
-    transition: 2s ease-in; }
-
-   .flex>div:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1); }
-
-
-        @media only screen and (max-width: 1100px){
-            .imgDestaque{
-                height: 200px;
-            }
-        }
 
       

@@ -29,8 +29,8 @@ copyTextFromElement(elementID) {
 //If you only want to put some Text in the Clipboard just use this function
 // and pass the string to copied as the argument.
 copyText(text) {
- //console.log(text);
-//navigator.clipboard.writeText(text);
+ console.log(text);
+ window.navigator['clipboard'].writeText(text);
  //navigator.clipboard.readText(text);
 // text.select();
 //document.execCommand('copy');

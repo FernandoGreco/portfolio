@@ -20,7 +20,7 @@ export class InicioComponent implements OnInit {
     
    let div = this.myDiv.nativeElement;
 
-  let textos = ['Desenvolvedor Front-End', 'Plataformas E-commerce: JET, Nuvemshop, Loja Integrada, Tray',  'Type Script, PHP, Mysql, JavaScript e CSS'];
+  let textos = ['Desenvolvedor Front-End', 'Plataformas E-commerce: JET, Nuvemshop, Loja Integrada, Tray',  'Skills: JavasScript, CSS, PHP, Mysql...'];
  
   rodape(textos,div);
 
